@@ -110,7 +110,8 @@ max_date = all_df["order_purchase_timestamp"].max()
 with st.sidebar:
     st.title("E-Commerce Dashboard")
     # Ganti URL logo jika perlu
-    st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
+    # st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
+    st.image("https://raw.githubusercontent.com/NuryaFahruRosyidin2406/data-analysis-project/main/dashboard/1531144_4100.jpg")
     
     start_date, end_date = st.date_input(
         label='Rentang Waktu',
